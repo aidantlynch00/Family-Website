@@ -1,0 +1,71 @@
+/* General styling */
+.App {
+  text-align: center;
+}
+
+
+/* Header styling */
+.TopBar {
+	background-color: #181818;
+	height: 5vmin;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.App .body {
+  background-color: #121212;
+  min-height: 95vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/*Styling for SideNav */
+.SideNav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111111;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+
+.SideNav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.SideNav a:hover {
+	color: #f1f1f1;
+}
+
+.SideNav #closebtn {
+	position: absolute;
+	top: 0;
+	left: 65%;
+	font-size: 36px;
+	margin-left: 50px;
+	background-color: #363636;
+	color: #818181;
+}
+
+/* Styling for Home page */
+.Logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+/* Styling for Family Tree page */
